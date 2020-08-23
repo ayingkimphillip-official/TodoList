@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "/Zzm7iotWHLN2Rt0EAmPuMUbm/4q/HPL9aqb10/ypgrpd2v7Zt+/JVrZe6ideh+RT0r5v9zpIaLh0oIMfmDedg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KimPhillipAying\\Documents\\Projects\\TodoList\\TodoList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KimPhillipAying\\.nuget\\packages\\matblazor\\2.6.2\\matblazor.2.6.2.nupkg.sha512",
+    "C:\\Users\\KimPhillipAying\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.4\\microsoft.aspnetcore.authorization.3.1.4.nupkg.sha512",
+    "C:\\Users\\KimPhillipAying\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.4\\microsoft.aspnetcore.components.3.1.4.nupkg.sha512",
+    "C:\\Users\\KimPhillipAying\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.4\\microsoft.aspnetcore.components.analyzers.3.1.4.nupkg.sha512",
+    "C:\\Users\\KimPhillipAying\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\3.1.4\\microsoft.aspnetcore.components.forms.3.1.4.nupkg.sha512",
+    "C:\\Users\\KimPhillipAying\\.nuget\\packages\\microsoft.aspnetcore.components.web\\3.1.4\\microsoft.aspnetcore.components.web.3.1.4.nupkg.sha512",
+    "C:\\Users\\KimPhillipAying\\.nuget\\packages\\microsoft.aspnetcore.metadata\\3.1.4\\microsoft.aspnetcore.metadata.3.1.4.nupkg.sha512",
+    "C:\\Users\\KimPhillipAying\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.4\\microsoft.extensions.dependencyinjection.3.1.4.nupkg.sha512",
+    "C:\\Users\\KimPhillipAying\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.4\\microsoft.extensions.dependencyinjection.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\KimPhillipAying\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.4\\microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\KimPhillipAying\\.nuget\\packages\\microsoft.extensions.options\\3.1.4\\microsoft.extensions.options.3.1.4.nupkg.sha512",
+    "C:\\Users\\KimPhillipAying\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.4\\microsoft.extensions.primitives.3.1.4.nupkg.sha512",
+    "C:\\Users\\KimPhillipAying\\.nuget\\packages\\microsoft.jsinterop\\3.1.4\\microsoft.jsinterop.3.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}

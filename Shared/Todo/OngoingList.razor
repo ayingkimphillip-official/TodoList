@@ -1,0 +1,17 @@
+@inherits OngoingListViewModel
+
+
+@* @foreach (string item in ItemList)
+{
+	<div>
+		<MatCheckbox @bind-Value="@Complete" Label="Complete" />
+		<MatCheckbox @bind-Value="@Delete" Label="Delete" />
+		<MatStringField ReadOnly="true" Value="@NewItem" />
+	</div>
+} *@
+
+<div>
+	<MatCheckbox @bind-Value="@Complete" Label="Complete" />
+	<MatCheckbox @bind-Value="@Delete" Label="Delete" />
+	<MatStringField ReadOnly="true" Value="@NewItem" />
+</div>

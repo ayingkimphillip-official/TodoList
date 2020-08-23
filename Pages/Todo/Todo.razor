@@ -1,0 +1,14 @@
+@page "/todo"
+@using TodoList.Shared.Todo
+@inherits TodoViewModel
+
+<h3>To Do List!</h3>
+
+@* <InputItem /> *@
+
+<div>
+	<MatTextField Label="To Do Item" @bind-Value="@TodoItem" />
+	<button @onclick="AddTodoItem">Add Item</button>
+</div>
+
+<OngoingList NewItem="@NewItem"/>
