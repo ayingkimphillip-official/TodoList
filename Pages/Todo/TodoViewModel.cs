@@ -15,6 +15,7 @@ namespace TodoList.Pages.Todo
 			{
 				NewItem = TodoItem;
 				TodoItem = string.Empty;
+				StateHasChanged();
 			}
 		}
 	}
