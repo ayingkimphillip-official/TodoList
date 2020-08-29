@@ -61,9 +61,7 @@ C:\Users\KimPhillipAying\Documents\Projects\TodoList\bin\Debug\netcoreapp3.1\Mic
 C:\Users\KimPhillipAying\Documents\Projects\TodoList\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\KimPhillipAying\Documents\Projects\TodoList\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\KimPhillipAying\Documents\Projects\TodoList\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
-C:\Users\KimPhillipAying\Documents\Projects\TodoList\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\Todo\InputItem.razor.g.cs
-C:\Users\KimPhillipAying\Documents\Projects\TodoList\obj\Debug\netcoreapp3.1\Razor\Shared\Todo\InputItem.razor.g.cs
-C:\Users\KimPhillipAying\Documents\Projects\TodoList\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\Todo\OngoingList.razor.g.cs
-C:\Users\KimPhillipAying\Documents\Projects\TodoList\obj\Debug\netcoreapp3.1\Razor\Shared\Todo\OngoingList.razor.g.cs
 C:\Users\KimPhillipAying\Documents\Projects\TodoList\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Todo\Todo.razor.g.cs
 C:\Users\KimPhillipAying\Documents\Projects\TodoList\obj\Debug\netcoreapp3.1\Razor\Pages\Todo\Todo.razor.g.cs
+C:\Users\KimPhillipAying\Documents\Projects\TodoList\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\TodoInputItem\TodoInputItem.razor.g.cs
+C:\Users\KimPhillipAying\Documents\Projects\TodoList\obj\Debug\netcoreapp3.1\Razor\Shared\TodoInputItem\TodoInputItem.razor.g.cs

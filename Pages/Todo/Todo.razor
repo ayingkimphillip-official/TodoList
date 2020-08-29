@@ -1,14 +1,19 @@
 @page "/todo"
-@using TodoList.Shared.Todo
+
+@using TodoList.Shared.TodoInputItem
+
 @inherits TodoViewModel
 
-<h3>To Do List!</h3>
+<h3>To Do List! (@List.Count(item => item.IsDone))</h3>
+<TodoInputItem Placeholder="Add things to do..." Label="Enter Todo Item here" Value="@NewItem"/>
+<button @onclick="AddItem">Add item</button>
 
-@* <InputItem /> *@
-
-<div>
-	<MatTextField Label="To Do Item" @bind-Value="@TodoItem" />
-	<button @onclick="AddTodoItem">Add Item</button>
-</div>
-
-<OngoingList NewItem="@NewItem"/>
+<ul>
+	@foreach(var item in List)
+	{
+		<li>
+			<input type="checkbox" @bind="@item.IsDone" />
+			<input @bind="@item.Title"/>
+		</li>
+	}
+</ul>

@@ -1,22 +1,52 @@
 using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
+using TodoList.Services;
+using TodoList.Models;
 
-namespace TodoList.Pages.Todo
+namespace TodoList.Pages
 {
 	public class TodoViewModel : ComponentBase
 	{
-		protected string TodoItem { get; set; } = string.Empty;
+		[Inject]
+		protected AppStateService AppStateService { get; set; }
 
-		protected string NewItem { get; set; }
+		protected IList<TodoItem> List = new List<TodoItem>();
 
-		public void AddTodoItem()
+		protected string NewItem { get; set; } = string.Empty;
+
+		protected override void OnInitialized()
+        {
+			base.OnInitialized();
+        }
+
+		protected override async Task OnAfterRenderAsync(bool firstRender)
+        {
+			if (firstRender)
+				AppStateService.PropertyChanged += OnAppStatePropertyChanged;
+			await base.OnAfterRenderAsync(firstRender);
+        }
+
+		protected async void OnAppStatePropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+			await InvokeAsync(StateHasChanged);
+        }
+
+		protected void AddItem()
 		{
-			if (!string.IsNullOrWhiteSpace(TodoItem))
+			NewItem = AppStateService.TodoItem;
+			if (!string.IsNullOrWhiteSpace(NewItem))
 			{
-				NewItem = TodoItem;
-				TodoItem = string.Empty;
-				StateHasChanged();
+				List.Add(new TodoItem { Title = NewItem });
+				NewItem = string.Empty;
 			}
+		}
+
+		public void Dispose()
+        {
+			AppStateService.PropertyChanged -= OnAppStatePropertyChanged;
 		}
 	}
 }
